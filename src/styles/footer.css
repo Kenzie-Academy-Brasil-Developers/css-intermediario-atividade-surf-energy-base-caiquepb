@@ -4,6 +4,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  position: relative;
 }
 
 .footer-content {
@@ -20,4 +22,11 @@
 
 .footer-content p {
   color: var(--color-grey-3);
+}
+
+.home-footer-img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
 }

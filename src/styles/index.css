@@ -10,6 +10,7 @@ h4 {
 .home-header {
   padding: 200px 0;
   background-image: url(./../images/bg.jpg);
+  position: relative;
 }
 
 .home-header-content {
@@ -28,6 +29,7 @@ h4 {
   margin-left: auto;
   margin-right: 80px;
 }
+
 .participants {
   padding: 50px 0;
 }
@@ -37,4 +39,10 @@ h4 {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.home-header-img {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
 }
