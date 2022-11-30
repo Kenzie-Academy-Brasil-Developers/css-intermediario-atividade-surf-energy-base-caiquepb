@@ -10,7 +10,11 @@
   align-items: center;
   font-size: 14px;
   cursor: pointer;
-  position: sticky;
+  position: sticky;;
+}
+
+footer > .button{
+  margin-top: 30px
 }
 
 .button:hover {
