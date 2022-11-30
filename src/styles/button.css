@@ -10,11 +10,6 @@
   align-items: center;
   font-size: 14px;
   cursor: pointer;
-  position: sticky;;
-}
-
-footer > .button{
-  margin-top: 30px
 }
 
 .button:hover {
@@ -38,8 +33,10 @@ footer > .button{
 a{
   top: 10px;
   z-index: 1;
+  position: sticky;
 }
 
-button{
+footer > .content-box{
   bottom: 10px;
+  position: sticky;
 }
